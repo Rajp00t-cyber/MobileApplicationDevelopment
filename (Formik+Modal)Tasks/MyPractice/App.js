@@ -75,7 +75,7 @@ export default function App() {
                   <Text style={styles.error}>{errors.email}</Text>
                 )}
 
-                {/* Buttons */}
+                {/* Buttons Rida*/}
                 <Button title="Submit" onPress={handleSubmit} />
                 <Button
                   title="Close"
