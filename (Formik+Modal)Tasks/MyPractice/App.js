@@ -26,7 +26,7 @@ export default function App() {
     <View style={styles.container}>
       <Button title="Open Form" onPress={() => setModalVisible(true)} />
 
-      {/* 🔹 Modal */}
+      {/*  Modal */}
       <Modal visible={modalVisible} animationType="slide">
         <View style={styles.modalContainer}>
           <Text style={styles.title}>Signup Form</Text>
@@ -91,7 +91,7 @@ export default function App() {
   );
 }
 
-// 🔹 Styles
+// Styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,
